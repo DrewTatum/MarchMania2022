@@ -1,0 +1,359 @@
+Team,ELO,TeamID
+arizona,1934.27,1112
+tennessee,1929.52,1397
+villanova,1925.83,1437
+gonzaga,1909.15,1211
+kansas,1908.57,1242
+baylor,1865.84,1124
+kentucky,1863.91,1246
+houston,1857.47,1222
+purdue,1849.69,1345
+duke,1847.9,1181
+iowa,1838.23,1234
+ucla,1836.32,1417
+arkansas,1834.58,1116
+auburn,1829.66,1120
+providence,1811.41,1344
+illinois,1803.93,1228
+virginia tech,1803.41,1439
+wisconsin,1803.34,1458
+texas tech,1799.04,1403
+boise state,1797.24,1129
+connecticut,1795.43,1163
+north carolina,1792.82,1314
+Saint-marys,1779.01,1388
+colorado state,1777.61,1161
+memphis,1773.43,1272
+usc,1767.73,1425
+creighton,1762.03,1166
+san diego state,1747.17,1361
+michigan state,1738.12,1277
+seton hall,1729.98,1371
+texas,1728.33,1400
+texas a&m,1725.58,1401
+davidson,1724.65,1172
+richmond,1724.17,1350
+south dakota state,1720.25,1355
+michigan,1717.63,1276
+murray state,1712.28,1293
+smu,1707.32,1374
+miami (fl),1705.63,1274
+notre dame,1704.87,1323
+vcu,1702.59,1433
+rutgers,1701.73,1353
+north texas,1701.39,1317
+Loyola-chicago,1700.38,1260
+uab,1699.47,1412
+colorado,1693.22,1160
+indiana,1692.66,1231
+saint bonaventure,1688.83,1382
+lsu,1687.55,1261
+dayton,1687.1,1173
+alabama,1683.51,1104
+tcu,1679.72,1395
+vermont,1676.35,1436
+virginia,1675.98,1438
+oklahoma,1675.58,1328
+ohio state,1675.29,1326
+saint louis,1672.68,1387
+marquette,1671.07,1266
+oklahoma state,1669.78,1329
+chattanooga,1661.16,1151
+new mexico state,1657.03,1308
+kent state,1656.33,1245
+toledo,1652.65,1405
+florida,1650.38,1196
+san francisco,1648.07,1362
+drake,1647.01,1179
+wyoming,1646.38,1461
+wake forest,1643.27,1448
+akron,1638.08,1103
+belmont,1634.22,1125
+colgate,1627.64,1159
+northern iowa,1624.9,1320
+louisiana tech,1624.76,1256
+santa clara,1623.2,1365
+Saint John`s,1621.62,1385
+mississippi state,1619.24,1280
+oregon,1618.49,1332
+arizona state,1616,1113
+florida state,1613.12,1199
+montana state,1612.65,1286
+south carolina,1612.12,1376
+missouri state,1611.99,1283
+iowa state,1611.9,1235
+byu,1611.24,1140
+towson,1609,1406
+maryland,1606.1,1268
+washington state,1605.43,1450
+syracuse,1601.78,1393
+texas state,1596.82,1402
+princeton,1596.43,1343
+vanderbilt,1595.49,1435
+georgia state,1595.26,1209
+clemson,1594.48,1155
+washington,1594.2,1449
+grand canyon,1587.9,1213
+stephen f. austin,1586.18,1372
+penn state,1585.44,1336
+iona,1585.37,1233
+xavier,1584.15,1462
+longwood,1583.23,1255
+yale,1579.03,1463
+abilene christian,1566.79,1101
+west virginia,1565.79,1452
+temple,1563.23,1396
+uncw,1561.98,1423
+furman,1561.72,1202
+winthrop,1561.42,1457
+bryant,1560.8,1136
+hofstra,1559.84,1220
+tulane,1555.06,1408
+depaul,1554.13,1177
+unlv,1553.4,1424
+ucf,1552.75,1416
+northwestern,1550.38,1321
+butler,1548.02,1139
+delaware,1546.77,1174
+saint peter's,1544.61,1389
+stanford,1542.22,1390
+western kentucky,1541.33,1443
+utah state,1539.78,1429
+ohio,1538.07,1325
+wright state,1535.08,1460
+buffalo,1533.14,1138
+middle tennessee,1532.7,1292
+north dakota state,1530.67,1295
+wichita state,1529.93,1455
+kansas state,1529.33,1243
+northern kentucky,1521.88,1297
+utep,1517.32,1431
+samford,1514.5,1359
+wofford,1511.15,1459
+morehead state,1510.46,1287
+cal state fullerton,1508.73,1168
+bradley,1508.45,1133
+long beach state,1507.21,1253
+cincinnati,1502.42,1153
+norfolk state,1500.54,1313
+umass,1499.35,1269
+fresno state,1498.14,1201
+uc santa barbara,1496.74,1364
+seattle u,1493.23,1370
+jacksonville st,1492.86,1240
+wagner,1489.84,1447
+liberty,1489.12,1251
+missouri,1488.27,1281
+bellarmine,1487.3,1468
+sam houston st,1486.26,1358
+navy,1486.19,1298
+texas southern,1485.44,1411
+purdue fort wayne,1483.48,1236
+louisville,1481.82,1257
+appalachian state,1479.19,1111
+boston college,1473.67,1130
+nevada,1472.2,1305
+minnesota,1464.5,1278
+florida atlantic,1463.18,1194
+fordham,1462.98,1200
+southern illinois,1461.92,1356
+southern utah,1461.58,1381
+northern colorado,1460.41,1294
+uc irvine,1460.35,1414
+jacksonville,1459.15,1239
+louisiana,1459.04,1418
+georgia tech,1458.88,1210
+nebraska,1457.09,1304
+umbc,1456.41,1420
+utah valley,1454.03,1430
+troy,1453.52,1407
+george mason,1453.5,1206
+monmouth,1452.17,1284
+uncg,1449.33,1422
+south dakota,1449.09,1377
+ole miss,1448.67,1279
+portland,1446.1,1339
+drexel,1445.22,1180
+pittsburgh,1444.32,1338
+charleston,1442.02,1158
+fgcu,1439.09,1195
+oral roberts,1437.48,1331
+arkansas state,1437.41,1117
+california,1436.94,1143
+boston university,1434.9,1131
+south alabama,1432.29,1375
+cleveland state,1427.13,1156
+east carolina,1427.03,1187
+eastern washington,1426.72,1186
+hawaii,1426.41,1218
+tulsa,1425.98,1409
+utah,1425.49,1428
+charlotte,1423.75,1150
+coastal carolina,1421.73,1157
+north carolina state,1421.28,1301
+penn,1420.35,1335
+old dominion,1419.44,1330
+umkc,1417.24,1282
+oakland,1417.24,1324
+weber state,1414.53,1451
+detroit,1413.71,1178
+nicholls,1411.69,1311
+siena,1408.37,1373
+alcorn state,1405.72,1108
+uc riverside,1403.08,1415
+long island,1402.44,1254
+gardner webb,1402.37,1205
+rhode island,1397.82,1348
+la salle,1394.71,1247
+george washington,1393.01,1203
+vmi,1389.59,1440
+mercer,1388.38,1273
+ball state,1381.92,1123
+rider,1380.6,1351
+cornell,1380.44,1165
+san diego,1380.25,1360
+east tennessee state,1375.89,1190
+portland state,1375.55,1340
+niagara,1374.31,1310
+uc davis,1373.88,1413
+a&m-corpus chris,1372.93,1394
+james madison,1371.88,1241
+harvard,1371.38,1217
+stony brook,1370.06,1392
+rice,1367.72,1349
+valparaiso,1364.98,1434
+Loyola-marymount,1363.82,1258
+elon,1361.55,1189
+new mexico,1360.98,1307
+the citadel,1355.28,1154
+new hampshire,1355.06,1306
+california baptist,1354.42,1465
+southeastern louisiana,1353.26,1368
+Marist,1352.28,1265
+brown,1350.85,1135
+miami (oh),1348.64,1275
+fairfield,1344.35,1193
+dartmouth,1344.13,1171
+saint joseph's,1342.32,1386
+georgia southern,1342.29,1204
+montana,1340.95,1285
+youngstown state,1340.27,1464
+georgetown,1338.77,1207
+marshall,1335.17,1267
+uic,1332.3,1227
+hartford,1331.9,1216
+merrimack,1331.81,1467
+campbell,1326.48,1144
+tarleton state,1324.98,1470
+south carolina upstate,1323.45,1367
+lehigh,1322.62,1250
+manhattan,1321.72,1264
+illinois state,1318.16,1229
+north florida,1316.87,1316
+canisius,1314.85,1145
+south florida,1312.28,1378
+mount st. mary's,1310.28,1291
+bowling green,1308.28,1132
+quinnipiac,1308.08,1346
+utah,1303.69,1428
+georgia,1301.54,1208
+new orleans,1300.73,1309
+umass-lowell,1298.8,1262
+lipscomb,1294.73,1252
+unc asheville,1294.31,1421
+albany,1293.5,1107
+southeast missouri state,1292.22,1369
+jackson state,1290.96,1238
+air force,1290.17,1102
+dixie state,1289.6,1469
+western carolina,1289.52,1441
+army,1289.52,1119
+high point,1288.95,1219
+sacramento state,1288.58,1170
+southern,1286.96,1380
+morgan state,1286.49,1288
+howard,1285.14,1224
+indiana state,1284.61,1232
+northeastern,1284.17,1318
+northern illinois,1281.28,1296
+uc san diego,1273.41,1471
+binghamton,1273.19,1127
+radford,1272.72,1347
+western illinois,1272.28,1442
+oregon state,1270.15,1333
+fiu,1268.06,1198
+loyola-maryland,1264.89,1259
+bucknell,1263.14,1137
+north carolina central,1261.51,1300
+alabama a&m,1261.51,1105
+austin peay,1260.03,1122
+prairie view a&m,1259.11,1341
+little rock,1258.38,1114
+kennesaw state,1255.19,1244
+ulm,1254.68,1419
+tennessee state,1254.65,1398
+eastern kentucky,1254.26,1184
+central arkansas,1252.39,1146
+florida a&m,1252.12,1197
+lafayette,1251.48,1248
+american,1245.05,1110
+pacific,1244.75,1334
+tennessee tech,1244.4,1399
+pepperdine,1241.78,1337
+utsa,1240.56,1427
+duquesne,1238.49,1182
+north carolina a&t,1234.04,1299
+eastern michigan,1232.16,1185
+western michigan,1231.61,1444
+central michigan,1226.54,1141
+coppin state,1224.65,1164
+denver,1221.87,1176
+saint francis (ny),1216.42,1383
+south carolina state,1215.87,1354
+grambling state,1208.51,1212
+milwaukee,1208.28,1454
+san jose state,1207.21,1363
+stetson,1203.46,1391
+njit,1200.67,1312
+holy cross,1198.03,1221
+sacred heart,1195.92,1357
+hampton,1193.89,1214
+maryland-eastern shore,1190.98,1271
+idaho,1190.97,1225
+cal state bakersfield,1190.43,1167
+alabama state,1189.04,1106
+robert morris,1187.66,1352
+evansville,1185.27,1191
+bethune-cookman,1184.33,1126
+siue,1176.54,1188
+cal poly,1171.89,1142
+idaho state,1166.99,1226
+houston baptist,1163.12,1223
+william & mary,1159.95,1456
+presbyterian,1158.87,1342
+utrgv,1154.95,1410
+saint francis (pa),1151.22,1384
+chicago state,1149.91,1152
+cal state northridge,1145.22,1169
+central connecticut,1142.2,1148
+southern miss,1136.8,1379
+Saint Thomas (Minn.),1136.75,1472
+northwestern state,1132.44,1322
+northern arizona,1129.96,1319
+north alabama,1126.64,1466
+fairleigh dickinson,1116.97,1192
+maine,1114.8,1263
+green bay,1109.96,1453
+mcneese,1107.83,1270
+omaha,1101.99,1303
+tennessee-martin,1089,1404
+arkansas-pine bluff,1085.62,1115
+columbia,1082.29,1162
+incarnate word,1077.14,1230
+north dakota,1073.87,1315
+eastern illinois,1049.31,1183
+charleston southern,1043.02,1149
+lamar,1018.27,1249
+iupui,1014.51,1237
+mississippi valley state,990.71,1290
+delaware state,939.71,1175
