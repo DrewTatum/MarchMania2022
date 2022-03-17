@@ -94,8 +94,8 @@ def main(year):
 
 # Saving as cvs file
 df, bracket_df = main(2022)
-df.to_csv('kaggle_win_probability.csv', index=False)
-bracket_df.to_csv('win_probability.csv', index=False)
+df.to_csv('./OutputData/kaggle_win_probability.csv', index=False)
+bracket_df.to_csv('./OutputData/win_probability.csv', index=False)
 
 
 
