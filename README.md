@@ -9,6 +9,9 @@ the win probability from both approaches is used to calculate the probability of
 this file was entered into <a href="https://www.kaggle.com/c/mens-march-mania-2022">Kaggle's 2022 March Mania Competition</a>. 
 Since there are 68 teams at the beginning of the tournament, there are 2,278 potential matchups. 
 
+## Demo
+
+
 ## Monte Carlo Model Parameters
 The Monte Carlo Simulation is based only on the offensive parameters of each team. The stats that were used for each team 
 were the following:
@@ -33,7 +36,7 @@ value. When exploring each team's pace per game, there appeared to be a roughly 
 
 A gaussian distributed random number was calculated using the combined pace distribution from the two teams to determine
 the number of possessions each team would have for that game. 
-For simplicity overtime games were excluded when calculating win percentage. Three different models were created:
+For simplicity overtime games were excluded when calculating win probability. Three different models were created:
 - Basic Iterative Model (To play one game at a time) 
 - Batched Version Using Numpy Arrays (To play multiple games at a time)
 - Batched Just in Time Compilation Version (To play multiple games at a time while using JIT compilation)
@@ -47,6 +50,10 @@ Data Sources:
   - Used for Elo ratings 
 - https://www.kaggle.com/competitions/mens-march-mania-2022/data (Via Kaggle API)
   - Used for team IDs
+  
+## Files
+
+## Instructions 
 
 ## Runtime 
 ![Runtime Comparison](./OutputData/runtime.png)
@@ -80,7 +87,7 @@ For example:
 
 One big area for future improvement is how the model was validated. The Kaggle competition uses a log loss function based
 on win probability to score submissions. This model's weighted scheme was validated using the probability of a team winning
-March Madness based on the sporting odds provided by Sportsbook.ag. It will be interesting to adjust this error metric 
+March Madness based on the normalized betting odds provided by Sportsbook.ag. It will be interesting to adjust this error metric 
 to see any changes it has on the weighting parameters.
 
 I look forward to tackling some of these limitations for next year's competition! 
