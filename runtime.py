@@ -102,14 +102,14 @@ def main(n_simulations, n_iterations):
     
 
 simulation_lst = [1, 1000, 5000, 10000, 50000]
-df = pd.DataFrame(columns = ['Sim Number', 'Normal Time', 'Batch Time', 'Jit Time'])
+df = pd.DataFrame(columns = ['Sim Number', 'Normal', 'Batch', 'Jit'])
 
 for sim_num in simulation_lst:
     gs_normal_time, gs_batch_time, gs_jit_time = main(sim_num, n_iterations=3)
     # Pandas DataFrame of Results 
     if sim_num == 1:  # JIT compilation slower first run
         continue
-    new_row = {'Sim Number': sim_num, 'Normal Time': round(gs_normal_time,3), 'Batch Time': round(gs_batch_time,3), 'Jit Time': round(gs_jit_time,3)}
+    new_row = {'Sim Number': sim_num, 'Normal': round(gs_normal_time,3), 'Batch': round(gs_batch_time,3), 'Jit': round(gs_jit_time,3)}
     df = df.append(new_row, ignore_index=True)
 
 # Plotting
@@ -124,7 +124,7 @@ try:
 except:
     print('Requires Matplotlib 3.4 for displaying values on graph')
     
-plt.title('Program Runtime per Simulation Count')
+plt.title('Program Runtime per Simulation')
 plt.xlabel('Number of Simulations')
 plt.ylabel('Time (Seconds)')
 plt.savefig('./OutputData/runtime.png')
