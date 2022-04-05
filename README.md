@@ -7,5 +7,18 @@ based on offensive stats. This model will return the simulated win probability b
 simulations. Afterwards the second win probability is calculated using each teams Elo rating. A weighted scheme using
 the win probability from both approaches is used to calculate the probability of team A beating team B. The output of 
 this file was entered into <a href="https://www.kaggle.com/c/mens-march-mania-2022">Kaggle's 2022 March Mania Competition</a>. 
-Since there are 68 teams at the beginning of the tournament, there are 2,278 potential matchups (!68/(2*!66)). 
+Since there are 68 teams at the beginning of the tournament, there are 2,278 potential matchups. 
 
+## Monte Carlo Model Parameters
+
+## Files
+
+## Instructions 
+
+## Runtime 
+![Runtime Comparison](./OutputData/runtime.png)
+
+## Results
+
+
+## Future Work
