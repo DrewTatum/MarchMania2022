@@ -31,15 +31,22 @@ value. When exploring each team's pace per game, there appeared to be a roughly 
     <img src="./InputData/virginia_pace.png"/>
 </p>
 
-During 
-
-Three different models were created 
+A gaussian distributed random number was calculated using the combined pace distribution from the two teams to determine
+the number of possessions each team would have for that game. 
+For simplicity overtime games were excluded when calculating win percentage. Three different models were created:
+- Basic Iterative Model (To play one game at a time) 
+- Batched Version Using Numpy Arrays (To play multiple games at a time)
+- Batched Just in Time Compilation Version (To play multiple games at a time while using JIT compilation)
 
 ## Data
-
-## Files
-
-## Instructions 
+Data Sources:
+- https://www.sports-reference.com (Via Web Scrapers in team_stats.py)
+    - Used for game by game pace stats
+    - Used for aggregate offensive statistics
+- https://www.warrennolan.com/basketball/2022/elo (Stored ./InputData/elo_2022.csv)
+  - Used for Elo ratings 
+- https://www.kaggle.com/competitions/mens-march-mania-2022/data (Via Kaggle API)
+  - Used for team IDs
 
 ## Runtime 
 ![Runtime Comparison](./OutputData/runtime.png)
@@ -55,3 +62,25 @@ Overall the model performed decent within the competition finishing within the t
 
 
 ## Future Work
+There were a few limitations that future work could help further validate this model. For example, the weighted scheme was
+based solely on the 2019 March Madness results. It would be ideal to extend this model to past tournaments to see if the 
+accuracy or weighted probability scheme changes. Another area for future work is the parameters of the simulated model. 
+As of now, the model only took into consideration offensive statistics and ignored free throws. Another limitation was 
+how the model was validated before the competition.
+
+Free throws were ignored in the simulated model for simplicity since free throws can be difficult to quantify. Often free 
+throw percentage can help determine the outcome of close games. For example, Gonzaga shot less than 75% from the free throw
+line each game, which could have contributed to their struggling tournament performance. 
+There are various metrics related to free throw percentage, but it would take additional time quantifying that with the
+pace metric. This is because free throw quantities can change depending on the scenario. 
+For example: 
+- One free throw (Fouled during a made basket or non-shooting foul while other team has between 7-9 total fouls for that half and free throw is missed) 
+- Two free throws (Fouled during a 2-point non made basket or non-shooting foul while other team has between 7-9 total fouls for that half and first free throw is made) 
+- Three free throws (Fouled during a 3-point non made basket)
+
+One big area for future improvement is how the model was validated. The Kaggle competition uses a log loss function based
+on win probability to score submissions. This model's weighted scheme was validated using the probability of a team winning
+March Madness based on the sporting odds provided by Sportsbook.ag. It will be interesting to adjust this error metric 
+to see any changes it has on the weighting parameters.
+
+I look forward to tackling some of these limitations for next year's competition! 
